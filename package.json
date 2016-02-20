@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-wordpress",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.",
   "license": "MIT",
   "repository": "ntwb/eslint-plugin-wordpress",
