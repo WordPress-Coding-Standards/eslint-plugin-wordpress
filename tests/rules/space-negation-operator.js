@@ -29,7 +29,7 @@ ruleTester.run('space-negation-operator', rule, {
 	invalid: [
 		{
 			code: '!foo',
-			output: '! foo',
+			output: '!foo',
 			errors: [{
 				message: 'Negation operator "!" must be followed by whitespace.',
 				type: 'UnaryExpression',
