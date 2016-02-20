@@ -15,9 +15,7 @@
   "scripts": {
     "test": "mocha tests/rules/*.js"
   },
-  "main": [
-    "index.js"
-  ],
+  "main": "index.js",
   "keywords": [
     "code",
     "code style",
