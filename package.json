@@ -1,0 +1,47 @@
+{
+  "name": "eslint-plugin-wordpress",
+  "version": "0.0.1",
+  "description": "A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.",
+  "license": "MIT",
+  "repository": "ntwb/eslint-plugin-wordpress",
+  "author": {
+  "name": "Stephen Edgar",
+  "email": "stephen@netweb.com.au",
+  "url": "https://netweb.com.au"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha tests/rules/*.js"
+  },
+  "main": [
+    "index.js"
+  ],
+  "keywords": [
+    "code",
+    "code style",
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "eslint-plugin-wordpress",
+    "JavaScript",
+    "jscs",
+    "jshint",
+    "jslint",
+    "lint",
+    "linter",
+    "linting",
+    "standard",
+    "validate",
+    "wordpress"
+  ],
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "eslint": "~1.2.0",
+    "mocha": "^2.4.5"
+  }
+}
