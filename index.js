@@ -1,20 +1,15 @@
-/**
- * @fileoverview A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.
- * @author Stephen Edgar
- * @copyright 2016 Stephen Edgar. All rights reserved.
- * See LICENSE file in root directory for full license.
- */
 'use strict';
 
-// -----------------------------------------------------------------------------
-// Requirements
-// -----------------------------------------------------------------------------
-
-var requireIndex = require('requireindex');
-
-// -----------------------------------------------------------------------------
-// Plugin Definition
-// -----------------------------------------------------------------------------
-
-// import all rules in /rules
-module.exports.rules = requireIndex('./rules');
+module.exports = {
+	configs: {
+		ava: require('./lib/configs/ava'),
+		a11y: require('./lib/configs/a11y'),
+		i18n: require('./lib/configs/i18n'),
+		jscs: require('./lib/configs/jscs'),
+		jsdoc: require('./lib/configs/jsdoc'),
+		jshint: require('./lib/configs/jshint'),
+		node: require('./lib/configs/node'),
+		qunit: require('./lib/configs/qunit'),
+		recommended: require('./lib/configs/recommended')
+	}
+};

@@ -62,11 +62,32 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
-# Ressources
+## Recommended config
+
+This plugin exports a [`recommended` config](index.js) that enforces good practices.
+
+Enable it in your `package.json` with the `extends` option:
+
+```json
+{
+	"name": "my-wordpress-project",
+	"eslintConfig": {
+		"plugins": [
+			"wordpress"
+		],
+		"extends": "plugin:wordpress/recommended"
+	}
+}
+```
+
+See the [ESLint docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information about extending config files.
+
+**Note**: This config will also add the Backbone, jQuery, JSON, Underscore, and the global `wp` as allowed [globals](http://eslint.org/docs/user-guide/configuring#specifying-globals).
+
+## Ressources
 
 - [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
 
-# Code Sources, References
+## Code Sources, References, 
 
-- ESLint https://github.com/eslint/eslint/blob/master/tests/lib/rules/space-unary-ops.js
-- ESLint https://github.com/eslint/eslint/blob/master/lib/rules/space-unary-ops.js
+- Inspried by Shopify's shared configs in [eslint-plugin-shopify](https://github.com/Shopify/javascript/tree/master/packages/eslint-plugin-shopify)
