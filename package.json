@@ -13,7 +13,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha tests/rules/*.js"
+    "test": "xo && nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "main": "index.js",
   "keywords": [
@@ -35,11 +36,23 @@
     "wordpress"
   ],
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "eslint": "^2.8.0"
   },
   "devDependencies": {
-    "ava": "^0.12.0",
-    "eslint": "^2.1.0",
-    "mocha": "^2.4.5"
+    "ava": "^0.14.0",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.0",
+    "xo": "^0.14.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=2"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "ava"
+    ],
+    "extends": [
+      "plugin:ava/recommended"
+    ]
   }
 }
