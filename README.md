@@ -62,10 +62,6 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
-# Rules
-
-- [space-negation-operator](docs/rules/space-negation-operator.md): Require space after `!` negation operators. See also https://github.com/eslint/eslint/issues/5060
-
 # Ressources
 
 - [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
