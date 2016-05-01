@@ -51,7 +51,7 @@
     "is-plain-obj": "^1.0.0",
     "merge": "^1.2.0",
     "nyc": "^6.4.0",
-    "xo": "^0.14.0"
+    "xo": "^0.15.0"
   },
   "peerDependencies": {
     "eslint": ">=2"
