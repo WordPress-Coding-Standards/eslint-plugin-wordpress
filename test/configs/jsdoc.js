@@ -1,4 +1,4 @@
-import test from "ava";
+import test from 'ava';
 import isPlainObj from 'is-plain-obj';
 
 test('jsdoc', t => {
