@@ -3,7 +3,6 @@
 module.exports = {
 	configs: {
 		ava: require('./lib/configs/ava'),
-		a11y: require('./lib/configs/a11y'),
 		i18n: require('./lib/configs/i18n'),
 		jscs: require('./lib/configs/jscs'),
 		jsdoc: require('./lib/configs/jsdoc'),
