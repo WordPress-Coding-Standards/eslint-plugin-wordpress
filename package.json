@@ -63,5 +63,10 @@
     "extends": [
       "plugin:ava/recommended"
     ]
+  },
+  "xo": {
+    "rules": {
+      "xo/filename-case": 0
+    }
   }
 }
