@@ -86,6 +86,16 @@ You can also stack any of the extra shared configs on top of the "recommended" c
 }
 ```
 
+Another example for if your creating a NodeJS project to use the "node" and "ava" shared configs:
+
+```json
+{
+	"extends": [
+		"plugin:wordpress/node",
+		"plugin:wordpress/ava"
+	]
+}
+```
 ## Ressources
 
 - [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
