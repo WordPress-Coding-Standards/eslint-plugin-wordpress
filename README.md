@@ -12,7 +12,7 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-wordpress`:
+Next, install [`eslint-plugin-wordpress`](https://github.com/ntwb/eslint-plugin-wordpress):
 
 ```
 $ npm install eslint-plugin-wordpress --save-dev
@@ -22,51 +22,9 @@ $ npm install eslint-plugin-wordpress --save-dev
 
 ## Usage
 
-Add `wordpress` to the plugins section of your `.eslintrc.json` configuration file. You can omit the `eslint-plugin-` prefix:
+This plugin exports a [`recommended` config](index.js) that enforces [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/).
 
-```json
-{
-    "plugins": [
-        "wordpress"
-    ]
-}
-```
-
-Or add `wordpress` to the plugins section of your `.eslintrc.js` configuration file. You can omit the `eslint-plugin-` prefix:
-
-```js
-{
-    "plugins": [
-        "wordpress"
-    ]
-}
-```
-
-Or add `wordpress` to the plugins section of your `.eslintrc.yaml`/`.eslintrc.yml` configuration file. You can omit the `eslint-plugin-` prefix:
-
-```yaml
-{
-    "plugins": [
-        "wordpress"
-    ]
-}
-```
-http://eslint.org/docs/user-guide/configuring.html#configuration-file-formats
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "wordpress/space-negation-operator": 2
-    }
-}
-```
-
-## Recommended config
-
-This plugin exports a [`recommended` config](index.js) that enforces good practices.
+**Note**: This config will also add the Backbone, jQuery, JSON, Underscore, and the global `wp` as allowed [globals](http://eslint.org/docs/user-guide/configuring#specifying-globals).
 
 Enable it in your `package.json` with the `extends` option:
 
@@ -74,17 +32,59 @@ Enable it in your `package.json` with the `extends` option:
 {
 	"name": "my-wordpress-project",
 	"eslintConfig": {
+		"extends": "plugin:wordpress/recommended",
 		"plugins": [
 			"wordpress"
-		],
-		"extends": "plugin:wordpress/recommended"
+		]
 	}
 }
 ```
 
-See the [ESLint docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information about extending config files.
+Or create your own `.eslintrc.json` configuration file:
 
-**Note**: This config will also add the Backbone, jQuery, JSON, Underscore, and the global `wp` as allowed [globals](http://eslint.org/docs/user-guide/configuring#specifying-globals).
+```json
+{
+	"extends": "plugin:wordpress/recommended",
+	"plugins": [
+		"wordpress"
+	]
+}
+```
+
+Or create your own `.eslintrc.js` configuration file:
+
+```js
+{
+	"extends": "plugin:wordpress/recommended",
+	"plugins": [
+		"wordpress"
+	]
+}
+```
+
+Or create your own `.eslintrc.yaml` or `.eslintrc.yml` configuration file:
+
+```yaml
+extends:
+	- "plugin:wordpress/recommended"
+
+plugins:
+	- "wordpress"
+```
+
+See the [ESLint docs](http://eslint.org/docs/user-guide/configuring.html#configuration-file-formats) for more information about configuration file formats.
+
+
+You can also stack any of the extra shared configs on top of the "recommended" config by extending an array of linting configs. For example, this package provides a backbone linting config, which can be added to the recommended config with the following configuration file:
+
+```json
+{
+	"extends": [
+		"plugin:wordpress/recommended",
+		"plugin:wordpress/backbone"
+	]
+}
+```
 
 ## Ressources
 
