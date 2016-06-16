@@ -52,7 +52,7 @@
     "eslint": "^2.9.0",
     "is-plain-obj": "^1.0.0",
     "nyc": "^6.4.1",
-    "xo": "^0.15.0"
+    "xo": "^0.16.0"
   },
   "peerDependencies": {
     "eslint": ">=2.9.0"
