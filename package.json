@@ -38,7 +38,7 @@
   ],
   "dependencies": {
     "eslint-plugin-ava": "^2.4.0",
-    "eslint-plugin-backbone": "^2.0.1",
+    "eslint-plugin-backbone": "git://github.com/nerfologist/eslint-plugin-backbone.git#ac8577734dd8b908745581d0bc22cb2dd9875dec",
     "eslint-plugin-i18n": "^1.0.1",
     "eslint-plugin-jsdoc": "^2.3.1",
     "eslint-plugin-node": "^1.4.0",
