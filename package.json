@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.",
   "license": "MIT",
-  "repository": "ntwb/eslint-plugin-wordpress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntwb/eslint-plugin-wordpress.git"
+  },
+  "homepage": "https://github.com/ntwb/eslint-plugin-wordpress#readme",
   "author": {
     "name": "Stephen Edgar",
     "email": "stephen@netweb.com.au",
