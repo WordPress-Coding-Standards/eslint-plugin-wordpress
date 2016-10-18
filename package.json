@@ -53,7 +53,7 @@
   "devDependencies": {
     "ava": "^0.15.1",
     "coveralls": "^2.11.13",
-    "eslint": "^3.8.0",
+    "eslint": "^3.8.1",
     "is-plain-obj": "^1.0.0",
     "nyc": "^8.3.1",
     "xo": "^0.16.0"
