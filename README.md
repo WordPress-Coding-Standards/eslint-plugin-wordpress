@@ -96,7 +96,7 @@ Another example for if your creating a NodeJS project to use the "node" and "ava
 	]
 }
 ```
-## Ressources
+## Resources
 
 - [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
 
