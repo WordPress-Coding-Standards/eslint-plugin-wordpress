@@ -51,7 +51,7 @@
     "merge": "^1.2.0"
   },
   "devDependencies": {
-    "ava": "^0.15.1",
+    "ava": "^0.19.1",
     "coveralls": "^2.11.13",
     "eslint": "^3.8.1",
     "is-plain-obj": "^1.0.0",
