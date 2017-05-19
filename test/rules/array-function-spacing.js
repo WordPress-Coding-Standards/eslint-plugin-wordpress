@@ -20,7 +20,7 @@ const rule = require( '../../lib/rules/array-function-spacing' ),
 ( new RuleTester( { env: { es6: true } } ) ).run( 'array-function-spacing', rule, {
 	valid: [
 		{
-			code: '(function( wp ) {\n	wp.foo = foo( \'bar\', {});\n})( window.wp = window.wp || {} );'
+			code: '( function( wp ) {\n	wp.foo = foo( \'bar\', {});\n} )( window.wp = window.wp || {} );'
 		},
 		{
 			code: 'foo(function() {});'

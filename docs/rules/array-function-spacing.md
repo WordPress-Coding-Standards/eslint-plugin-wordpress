@@ -41,9 +41,9 @@ foo[key ];
 The following patterns are not warnings:
 
 ```js
-(function( wp ) {
+( function( wp ) {
 	wp.foo = foo( 'bar', {});
-})( window.wp = window.wp || {} );
+} )( window.wp = window.wp || {} );
 foo(function() {});
 foo(function() {}, 1 );
 foo( 1, function() {});
