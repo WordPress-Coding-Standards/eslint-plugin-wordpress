@@ -8,7 +8,7 @@ cache:
     - node_modules
 before_install:
 - npm install
-- npm prune
+# - npm prune see https://github.com/npm/npm/issues/17419
 after_success: npm run coveralls
 notifications:
   slack:
