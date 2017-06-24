@@ -1,3 +1,7 @@
+# HEAD
+
+* Fix: Moved `comma-dangle` rule from `possible-errors` rule set to `stylistic-issues` rule set.
+
 # 0.1.0
 
 * Publish to npmjs.com
