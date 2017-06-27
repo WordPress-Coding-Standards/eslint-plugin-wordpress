@@ -7,7 +7,7 @@ cache:
   directories:
     - node_modules
 before_install:
-- npm install
+# - npm install Why is `npm install` being run twice?
 # - npm prune see https://github.com/npm/npm/issues/17419
 after_success: npm run coveralls
 notifications:
