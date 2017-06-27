@@ -3,9 +3,9 @@ language: node_js
 node_js:
   - '8'
   - '6'
-cache:
-  directories:
-    - node_modules
+# cache:
+#  directories:
+#    - node_modules
 before_install:
 # - npm prune see https://github.com/npm/npm/issues/17419
 after_success: npm run coveralls
