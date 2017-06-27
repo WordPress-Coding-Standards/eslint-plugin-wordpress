@@ -17,7 +17,9 @@
     "node": ">=6.9.1"
   },
   "scripts": {
-    "test": "xo && nyc ava",
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint",
+    "test": "nyc ava",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
@@ -53,10 +55,10 @@
   "devDependencies": {
     "ava": "~0.19.1",
     "coveralls": "~2.13.1",
-    "eslint": "~3.19.0",
+    "eslint": "~4.1.1",
+    "eslint-plugin-wordpress": "file:.",
     "is-plain-obj": "~1.1.0",
-    "nyc": "~10.3.0",
-    "xo": "~0.16.0"
+    "nyc": "~10.3.0"
   },
   "peerDependencies": {
     "eslint": ">=2.9.0"
@@ -66,12 +68,8 @@
       "ava"
     ],
     "extends": [
+      "plugin:wordpress/recommended",
       "plugin:ava/recommended"
     ]
-  },
-  "xo": {
-    "rules": {
-      "xo/filename-case": 0
-    }
   }
 }
