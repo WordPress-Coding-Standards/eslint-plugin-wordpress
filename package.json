@@ -58,7 +58,7 @@
     "eslint": "~4.1.1",
     "eslint-plugin-wordpress": "file:.",
     "is-plain-obj": "~1.1.0",
-    "nyc": "~10.3.0"
+    "nyc": "~11.0.3"
   },
   "peerDependencies": {
     "eslint": ">=2.9.0"
