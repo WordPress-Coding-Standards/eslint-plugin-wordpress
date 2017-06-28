@@ -1,6 +1,7 @@
 # HEAD
 
-* Chore: Bump minimum Node.js required version to `6.9.1`
+* Chore: Bump minimum Node.js required version to `6.9.1`.
+* Feature: Add ESLint 4.x rules.
 * Fix: Add Node.js `node` ESLint environment to `recommended` config.
 * Fix: Moved `comma-dangle` rule from `possible-errors` rule set to `stylistic-issues` rule set.
 * Update: Changed `comma-dangle` rule option to `error` with option `always-multiline`.
