@@ -46,7 +46,7 @@
     "eslint-plugin-ava": "~4.2.0",
     "eslint-plugin-backbone": "~2.0.2",
     "eslint-plugin-i18n": "~1.1.0",
-    "eslint-plugin-jsdoc": "~3.0.2",
+    "eslint-plugin-jsdoc": "~3.1.1",
     "eslint-plugin-node": "~4.2.2",
     "eslint-plugin-qunit": "~3.1.0",
     "eslint-plugin-wpcalypso": "~3.2.0",
