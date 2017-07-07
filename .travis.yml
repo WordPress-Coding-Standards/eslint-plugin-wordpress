@@ -7,7 +7,8 @@ node_js:
 #  directories:
 #    - node_modules
 before_install:
-# - npm prune see https://github.com/npm/npm/issues/17419
+  - npm install -g npm@latest
+script: npm test
 after_success: npm run coveralls
 notifications:
   slack:
