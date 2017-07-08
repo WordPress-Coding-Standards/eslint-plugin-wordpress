@@ -3,11 +3,13 @@ language: node_js
 node_js:
   - '8'
   - '6'
-# cache:
-#  directories:
-#    - node_modules
+cache:
+  directories:
+    - $HOME/.npm
+    - node_modules
 before_install:
-# - npm prune see https://github.com/npm/npm/issues/17419
+  - npm install -g npm@latest
+script: npm test
 after_success: npm run coveralls
 notifications:
   slack:
