@@ -1,0 +1,16 @@
+{
+	"env": {
+		"node": true
+	},
+	"extends": [
+		"plugin:wordpress/recommended",
+		"plugin:ava/recommended"
+	],
+	"parserOptions": {
+		"sourceType": "module"
+	},
+  "plugins": [
+    "ava"
+  ]
+
+}
