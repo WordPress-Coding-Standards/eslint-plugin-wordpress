@@ -62,14 +62,5 @@
   },
   "peerDependencies": {
     "eslint": ">=2.9.0"
-  },
-  "eslintConfig": {
-    "plugins": [
-      "ava"
-    ],
-    "extends": [
-      "plugin:wordpress/recommended",
-      "plugin:ava/recommended"
-    ]
   }
 }
