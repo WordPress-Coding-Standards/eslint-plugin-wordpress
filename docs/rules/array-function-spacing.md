@@ -43,6 +43,9 @@ The following patterns are not warnings:
 ```js
 ( function( wp ) {
 	wp.foo = foo( 'bar', {});
+	wp.baz(function() {
+		console.log( 'Done' );
+	});
 } )( window.wp = window.wp || {} );
 foo(function() {});
 foo(function() {}, 1 );
