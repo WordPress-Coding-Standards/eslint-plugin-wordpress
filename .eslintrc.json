@@ -5,13 +5,12 @@
 	},
 	"extends": [
 		"plugin:wordpress/recommended",
-		"plugin:ava/recommended"
+		"plugin:jest/recommended"
 	],
 	"parserOptions": {
 		"sourceType": "module"
 	},
-  "plugins": [
-    "ava"
-  ]
-
+	"plugins": [
+		"jest"
+	]
 }
