@@ -73,7 +73,7 @@
     ],
     "testEnvironment": "node",
     "testMatch": [
-      "<rootDir>/__tests__/configs/*.js"
+      "<rootDir>/__tests__/**/*.js"
     ],
     "verbose": true
   }
