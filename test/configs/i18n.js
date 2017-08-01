@@ -1,10 +1,9 @@
-import test from 'ava';
 import isPlainObj from 'is-plain-obj';
 
-test( 'i18n', t => {
+test( 'i18n', () => {
 	const conf = require( '../../lib/configs/i18n' );
 
-	t.true( isPlainObj( conf ) );
-	t.true( isPlainObj( conf.env ) );
-	t.true( isPlainObj( conf.rules ) );
+	expect(isPlainObj( conf )).toBe(true);
+	expect(isPlainObj( conf.env )).toBe(true);
+	expect(isPlainObj( conf.rules )).toBe(true);
 });
