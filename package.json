@@ -23,7 +23,6 @@
     "pretest": "npm run lint",
     "release": "npmpub --verbose",
     "test": "jest",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "watch": "jest --watch"
   },
   "keywords": [
