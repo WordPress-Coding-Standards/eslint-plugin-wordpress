@@ -21,8 +21,9 @@
     "lint": "eslint . --ignore-path .gitignore",
     "pretest": "npm run lint",
     "release": "npmpub --verbose",
-    "test": "nyc ava",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "test": "jest",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "watch": "jest --watch"
   },
   "keywords": [
     "code",
