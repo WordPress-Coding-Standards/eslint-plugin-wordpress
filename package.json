@@ -59,7 +59,7 @@
     "coveralls": "~2.13.1",
     "eslint": "~4.1.1",
     "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#eb902ee7fbf8dcd830f81cb8a1d0b138dfea76c6",
+    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#b5632c8ba64fcb7afad0a71d13e337c186f99f9d",
     "is-plain-obj": "~1.1.0",
     "jest": "^20.0.4",
     "npmpub": "^3.1.0"
