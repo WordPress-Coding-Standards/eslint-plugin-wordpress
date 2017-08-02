@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports = {
+	rules: {
+		'array-function-spacing': require( './lib/rules/array-function-spacing' ),
+	},
 	configs: {
 		ava: require( './lib/configs/ava' ),
 		backbone: require( './lib/configs/backbone' ),
