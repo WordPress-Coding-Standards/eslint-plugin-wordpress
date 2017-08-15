@@ -19,7 +19,7 @@
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
     "jest": "jest",
-    "lint": "eslint . --ignore-path .gitignore",
+    "lint": "eslint .",
     "pretest": "npm run lint",
     "release": "npmpub --verbose",
     "test": "jest",
