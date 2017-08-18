@@ -1,156 +1,167 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`fixtures/semicolons-fixture.js 1`] = `
-Object {
-  "errorCount": 5,
-  "filePath": "/Users/netweb/dev/eslint/eslint-plugin-wordpress/__tests__/wpcs/fixtures/semicolons-fixture.js",
-  "fixableErrorCount": 5,
-  "fixableWarningCount": 0,
-  "messages": Array [
-    Object {
-      "column": 7,
-      "fix": Object {
-        "range": Array [
-          50,
-          50,
-        ],
-        "text": ";",
-      },
-      "line": 3,
-      "message": "Missing semicolon.",
-      "nodeType": "VariableDeclaration",
-      "ruleId": "semi",
-      "severity": 2,
-      "source": "var bb",
-    },
-    Object {
-      "column": 8,
-      "fix": Object {
-        "range": Array [
-          57,
-          58,
-        ],
-        "text": "",
-      },
-      "line": 4,
-      "message": "Unexpected whitespace before semicolon.",
-      "nodeType": "VariableDeclaration",
-      "ruleId": "semi-spacing",
-      "severity": 2,
-      "source": "var cc ;",
-    },
-    Object {
-      "column": 7,
-      "fix": Object {
-        "range": Array [
-          67,
-          67,
-        ],
-        "text": " ",
-      },
-      "line": 5,
-      "message": "Missing whitespace after semicolon.",
-      "nodeType": "VariableDeclaration",
-      "ruleId": "semi-spacing",
-      "severity": 2,
-      "source": "var dd;;",
-    },
-    Object {
-      "column": 8,
-      "fix": Object {
-        "range": Array [
-          66,
-          72,
-        ],
-        "text": ";
-var",
-      },
-      "line": 5,
-      "message": "Unnecessary semicolon.",
-      "nodeType": "EmptyStatement",
-      "ruleId": "no-extra-semi",
-      "severity": 2,
-      "source": "var dd;;",
-    },
-    Object {
-      "column": 9,
-      "fix": Object {
-        "range": Array [
-          75,
-          78,
-        ],
-        "text": "; ",
-      },
-      "line": 6,
-      "message": "Unnecessary semicolon.",
-      "nodeType": "EmptyStatement",
-      "ruleId": "no-extra-semi",
-      "severity": 2,
-      "source": "var ee; ;",
-    },
-  ],
-  "source": "/* eslint-disable no-unused-vars */
-var aa;
-var bb
-var cc ;
-var dd;;
-var ee; ;
-/* eslint-enable no-unused-vars */
-",
-  "warningCount": 0,
-}
+"error: Missing semicolon (semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:7:
+  1 | /* eslint-disable no-unused-vars */
+  2 | var aa;
+> 3 | var bb
+    |       ^
+  4 | var cc ;
+  5 | var dd;;
+  6 | var ee; ;
+
+
+error: Unexpected whitespace before semicolon (semi-spacing) at __tests__/wpcs/fixtures/semicolons-fixture.js:4:8:
+  2 | var aa;
+  3 | var bb
+> 4 | var cc ;
+    |        ^
+  5 | var dd;;
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+
+
+error: Missing whitespace after semicolon (semi-spacing) at __tests__/wpcs/fixtures/semicolons-fixture.js:5:7:
+  3 | var bb
+  4 | var cc ;
+> 5 | var dd;;
+    |       ^
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary semicolon (no-extra-semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:5:8:
+  3 | var bb
+  4 | var cc ;
+> 5 | var dd;;
+    |        ^
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary semicolon (no-extra-semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:6:9:
+  4 | var cc ;
+  5 | var dd;;
+> 6 | var ee; ;
+    |         ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary escape character: \\\\\\" (no-useless-escape) at __tests__/wpcs/fixtures/strings-fixture.js:5:42:
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+> 5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+    |                                          ^
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary escape character: \\\\\\" (no-useless-escape) at __tests__/wpcs/fixtures/strings-fixture.js:5:58:
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+> 5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+    |                                                          ^
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-fixture.js:6:10:
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+> 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+    |          ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+8 errors found.
+6 errors potentially fixable with the \`--fix\` option."
 `;
 
 exports[`fixtures/strings-fixture.js 1`] = `
-Object {
-  "errorCount": 3,
-  "filePath": "/Users/netweb/dev/eslint/eslint-plugin-wordpress/__tests__/wpcs/fixtures/strings-fixture.js",
-  "fixableErrorCount": 1,
-  "fixableWarningCount": 0,
-  "messages": Array [
-    Object {
-      "column": 42,
-      "line": 5,
-      "message": "Unnecessary escape character: \\\\\\".",
-      "nodeType": "Literal",
-      "ruleId": "no-useless-escape",
-      "severity": 2,
-      "source": "var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';",
-    },
-    Object {
-      "column": 58,
-      "line": 5,
-      "message": "Unnecessary escape character: \\\\\\".",
-      "nodeType": "Literal",
-      "ruleId": "no-useless-escape",
-      "severity": 2,
-      "source": "var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';",
-    },
-    Object {
-      "column": 10,
-      "fix": Object {
-        "range": Array [
-          273,
-          338,
-        ],
-        "text": "'Strings should be contained in single quotes, not double quotes'",
-      },
-      "line": 6,
-      "message": "Strings must use singlequote.",
-      "nodeType": "Literal",
-      "ruleId": "quotes",
-      "severity": 2,
-      "source": "var ee = \\"Strings should be contained in single quotes, not double quotes\\";",
-    },
-  ],
-  "source": "/* eslint-disable no-unused-vars */
-var aa = 'Strings should be contained in single quotes';
-var bb = 'Escape single quotes \\\\'within strings\\\\'';
-var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
-var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
-var ee = \\"Strings should be contained in single quotes, not double quotes\\";
-/* eslint-enable no-unused-vars */
-",
-  "warningCount": 0,
-}
+"error: Missing semicolon (semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:7:
+  1 | /* eslint-disable no-unused-vars */
+  2 | var aa;
+> 3 | var bb
+    |       ^
+  4 | var cc ;
+  5 | var dd;;
+  6 | var ee; ;
+
+
+error: Unexpected whitespace before semicolon (semi-spacing) at __tests__/wpcs/fixtures/semicolons-fixture.js:4:8:
+  2 | var aa;
+  3 | var bb
+> 4 | var cc ;
+    |        ^
+  5 | var dd;;
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+
+
+error: Missing whitespace after semicolon (semi-spacing) at __tests__/wpcs/fixtures/semicolons-fixture.js:5:7:
+  3 | var bb
+  4 | var cc ;
+> 5 | var dd;;
+    |       ^
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary semicolon (no-extra-semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:5:8:
+  3 | var bb
+  4 | var cc ;
+> 5 | var dd;;
+    |        ^
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary semicolon (no-extra-semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:6:9:
+  4 | var cc ;
+  5 | var dd;;
+> 6 | var ee; ;
+    |         ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary escape character: \\\\\\" (no-useless-escape) at __tests__/wpcs/fixtures/strings-fixture.js:5:42:
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+> 5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+    |                                          ^
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Unnecessary escape character: \\\\\\" (no-useless-escape) at __tests__/wpcs/fixtures/strings-fixture.js:5:58:
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+> 5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+    |                                                          ^
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-fixture.js:6:10:
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+> 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+    |          ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+8 errors found.
+6 errors potentially fixable with the \`--fix\` option."
 `;
