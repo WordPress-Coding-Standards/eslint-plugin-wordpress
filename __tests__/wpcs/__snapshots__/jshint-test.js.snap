@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fixtures/semicolons-fixture.js 1`] = `
+"error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:1:
+  1 | /* eslint-disable no-unused-vars */
+  2 | var aa;
+> 3 | var bb
+    | ^
+  4 | var cc ;
+  5 | var dd;;
+  6 | var ee; ;
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:4:1:
+  2 | var aa;
+  3 | var bb
+> 4 | var cc ;
+    | ^
+  5 | var dd;;
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:5:1:
+  3 | var bb
+  4 | var cc ;
+> 5 | var dd;;
+    | ^
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:6:1:
+  4 | var cc ;
+  5 | var dd;;
+> 6 | var ee; ;
+    | ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:3:1:
+  1 | /* eslint-disable no-unused-vars */
+  2 | var aa = 'Strings should be contained in single quotes';
+> 3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+    | ^
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:4:1:
+  2 | var aa = 'Strings should be contained in single quotes';
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+> 4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+    | ^
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:5:1:
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+> 5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+    | ^
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:6:1:
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+> 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+    | ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-fixture.js:6:10:
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+> 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+    |          ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+9 errors found.
+1 error potentially fixable with the \`--fix\` option."
+`;
+
+exports[`fixtures/strings-fixture.js 1`] = `
+"error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:1:
+  1 | /* eslint-disable no-unused-vars */
+  2 | var aa;
+> 3 | var bb
+    | ^
+  4 | var cc ;
+  5 | var dd;;
+  6 | var ee; ;
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:4:1:
+  2 | var aa;
+  3 | var bb
+> 4 | var cc ;
+    | ^
+  5 | var dd;;
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:5:1:
+  3 | var bb
+  4 | var cc ;
+> 5 | var dd;;
+    | ^
+  6 | var ee; ;
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:6:1:
+  4 | var cc ;
+  5 | var dd;;
+> 6 | var ee; ;
+    | ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:3:1:
+  1 | /* eslint-disable no-unused-vars */
+  2 | var aa = 'Strings should be contained in single quotes';
+> 3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+    | ^
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:4:1:
+  2 | var aa = 'Strings should be contained in single quotes';
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+> 4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+    | ^
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:5:1:
+  3 | var bb = 'Escape single quotes \\\\'within strings\\\\'';
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+> 5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+    | ^
+  6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/strings-fixture.js:6:1:
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+> 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+    | ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-fixture.js:6:10:
+  4 | var cc = 'Don\\\\'t escape double quotes \\"within strings\\"';
+  5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
+> 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
+    |          ^
+  7 | /* eslint-enable no-unused-vars */
+  8 | 
+
+
+9 errors found.
+1 error potentially fixable with the \`--fix\` option."
+`;
