@@ -75,27 +75,17 @@ plugins:
 See the [ESLint docs](http://eslint.org/docs/user-guide/configuring.html#configuration-file-formats) for more information about configuration file formats.
 
 
-You can also stack any of the extra shared configs on top of the "recommended" config by extending an array of linting configs. For example, this package provides a backbone linting config, which can be added to the recommended config with the following configuration file:
+You can also stack any of the extra shared configs on top of the "recommended" config by extending an array of linting configs. For example, this package provides a Node.js linting config, which can be added to the recommended config with the following configuration file:
 
 ```json
 {
 	"extends": [
 		"plugin:wordpress/recommended",
-		"plugin:wordpress/backbone"
+		"plugin:wordpress/node"
 	]
 }
 ```
 
-Another example for if your creating a NodeJS project to use the "node" and "ava" shared configs:
-
-```json
-{
-	"extends": [
-		"plugin:wordpress/node",
-		"plugin:wordpress/ava"
-	]
-}
-```
 ## Resources
 
 - [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
