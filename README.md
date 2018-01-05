@@ -86,6 +86,18 @@ You can also stack any of the extra shared configs on top of the "recommended" c
 }
 ```
 
+## Avaiable rulesets
+
+The following rulesets are available:
+
+* es6
+* **i18n**: Warns about possible internationalization errors.
+* **jscs**: Imported and merged WordPress and jQuery JSCS presets using https://github.com/brenolf/polyjuice.
+* **jsdoc**: Requires valid JSDoc
+* **jShint**: Imported from WordPress .jshintrc using https://github.com/brenolf/polyjuice.
+* **node**: Contains rules that are relevant in a Node.JS environment.
+* **recommended**: Enforces best practices, possible errors and the WordPress codestyle.
+
 ## Resources
 
 - [WordPress JavaScript coding standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/)
