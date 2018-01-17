@@ -1,82 +1,82 @@
 {
-  "name": "eslint-plugin-wordpress",
-  "version": "0.1.0",
-  "description": "A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ntwb/eslint-plugin-wordpress.git"
-  },
-  "homepage": "https://github.com/ntwb/eslint-plugin-wordpress#readme",
-  "author": {
-    "name": "Stephen Edgar",
-    "email": "stephen@netweb.com.au",
-    "url": "https://netweb.com.au"
-  },
-  "engines": {
-    "node": ">=6.9.1"
-  },
-  "scripts": {
-    "dry-release": "npmpub --dry --verbose",
-    "find-rules": "eslint-find-rules lib/configs/all.js -u -n",
-    "jest": "jest",
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "release": "npmpub --verbose",
-    "test": "jest",
-    "watch": "jest --watch"
-  },
-  "keywords": [
-    "code",
-    "code style",
-    "eslint",
-    "eslintconfig",
-    "eslint-config",
-    "eslintplugin",
-    "eslint-plugin",
-    "eslint-plugin-wordpress",
-    "JavaScript",
-    "jscs",
-    "jshint",
-    "jslint",
-    "lint",
-    "linter",
-    "linting",
-    "standard",
-    "validate",
-    "wordpress"
-  ],
-  "dependencies": {
-    "eslint-plugin-i18n": "~1.1.0",
-    "eslint-plugin-jsdoc": "~3.1.1",
-    "eslint-plugin-node": "~5.1.0",
-    "eslint-plugin-wpcalypso": "~3.4.0",
-    "merge": "~1.2.0"
-  },
-  "devDependencies": {
-    "coveralls": "~2.13.1",
-    "eslint": "~4.4.1",
-    "eslint-find-rules": "^3.1.1",
-    "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#f3a0ce342534afb158c806f091256bc29816ea72",
-    "is-plain-obj": "~1.1.0",
-    "jest": "^20.0.4",
-    "npmpub": "^3.1.0",
-    "strip-ansi": "^4.0.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=2.9.0"
-  },
-  "jest": {
-    "roots": [
-      "__tests__"
-    ],
-    "testEnvironment": "node",
-    "testMatch": [
-      "<rootDir>/__tests__/configs/*.js",
-      "<rootDir>/__tests__/rules/*.js",
-      "<rootDir>/__tests__/wpcs/*.js"
-    ],
-    "verbose": true
-  }
+	"name": "eslint-plugin-wordpress",
+	"version": "0.1.0",
+	"description": "A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ntwb/eslint-plugin-wordpress.git"
+	},
+	"homepage": "https://github.com/ntwb/eslint-plugin-wordpress#readme",
+	"author": {
+		"name": "Stephen Edgar",
+		"email": "stephen@netweb.com.au",
+		"url": "https://netweb.com.au"
+	},
+	"engines": {
+		"node": ">=6.9.1"
+	},
+	"scripts": {
+		"dry-release": "npmpub --dry --verbose",
+		"find-rules": "eslint-find-rules lib/configs/all.js -u -n",
+		"jest": "jest",
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"release": "npmpub --verbose",
+		"test": "jest",
+		"watch": "jest --watch"
+	},
+	"keywords": [
+		"code",
+		"code style",
+		"eslint",
+		"eslintconfig",
+		"eslint-config",
+		"eslintplugin",
+		"eslint-plugin",
+		"eslint-plugin-wordpress",
+		"JavaScript",
+		"jscs",
+		"jshint",
+		"jslint",
+		"lint",
+		"linter",
+		"linting",
+		"standard",
+		"validate",
+		"wordpress"
+	],
+	"dependencies": {
+		"eslint-plugin-i18n": "~1.1.0",
+		"eslint-plugin-jsdoc": "~3.1.1",
+		"eslint-plugin-node": "~5.1.0",
+		"eslint-plugin-wpcalypso": "~3.4.0",
+		"merge": "~1.2.0"
+	},
+	"devDependencies": {
+		"coveralls": "~2.13.1",
+		"eslint": "~4.4.1",
+		"eslint-find-rules": "^3.1.1",
+		"eslint-plugin-jest": "^20.0.3",
+		"eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#f3a0ce342534afb158c806f091256bc29816ea72",
+		"is-plain-obj": "~1.1.0",
+		"jest": "^20.0.4",
+		"npmpub": "^3.1.0",
+		"strip-ansi": "^4.0.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=2.9.0"
+	},
+	"jest": {
+		"roots": [
+			"__tests__"
+		],
+		"testEnvironment": "node",
+		"testMatch": [
+			"<rootDir>/__tests__/configs/*.js",
+			"<rootDir>/__tests__/rules/*.js",
+			"<rootDir>/__tests__/wpcs/*.js"
+		],
+		"verbose": true
+	}
 }
