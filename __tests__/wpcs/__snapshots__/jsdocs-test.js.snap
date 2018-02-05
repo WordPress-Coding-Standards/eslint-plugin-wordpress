@@ -31,15 +31,45 @@ error: Missing JSDoc @return for function (valid-jsdoc) at __tests__/wpcs/fixtur
   30 |  * @param {number} foo Param desc capital to start, period to end.
 
 
-error: Missing JSDoc @return for function (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:37:1:
+warning: Invalid JSDoc tag (preference). Replace \\"arg\\" JSDoc tag with \\"param\\" (jsdoc/check-tag-names) at __tests__/wpcs/fixtures/jsdocs.js:37:1:
   35 | }
   36 | 
 > 37 | /**
      | ^
-  38 |  * JSDoc test missing @returns the sum of foo and bar.
+  38 |  * JSDoc test @arg.
   39 |  *
-  40 |  * @param {number} foo Param desc capital to start, period to end.
+  40 |  * @arg {number} foo Param desc capital to start, period to end.
 
 
-3 errors and 1 warning found."
+error: Use @param instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:37:1:
+  35 | }
+  36 | 
+> 37 | /**
+     | ^
+  38 |  * JSDoc test @arg.
+  39 |  *
+  40 |  * @arg {number} foo Param desc capital to start, period to end.
+
+
+warning: Invalid JSDoc tag (preference). Replace \\"argument\\" JSDoc tag with \\"param\\" (jsdoc/check-tag-names) at __tests__/wpcs/fixtures/jsdocs.js:48:1:
+  46 | }
+  47 | 
+> 48 | /**
+     | ^
+  49 |  * JSDoc test @argument the sum of foo and bar.
+  50 |  *
+  51 |  * @argument {number} bar Param desc capital to start, period to end.
+
+
+error: Use @param instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:48:1:
+  46 | }
+  47 | 
+> 48 | /**
+     | ^
+  49 |  * JSDoc test @argument the sum of foo and bar.
+  50 |  *
+  51 |  * @argument {number} bar Param desc capital to start, period to end.
+
+
+4 errors and 3 warnings found."
 `;
