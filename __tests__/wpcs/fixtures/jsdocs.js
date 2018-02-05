@@ -35,12 +35,36 @@ function missingReturn(foo, bar) {
 }
 
 /**
- * JSDoc test missing @returns the sum of foo and bar.
+ * JSDoc test @arg.
+ *
+ * @arg {number} foo Param desc capital to start, period to end.
+ *
+ * @return {number} Sum of foo and bar, uses invalid @return.
+ */
+function usesArg(foo) {
+	return foo;
+}
+
+/**
+ * JSDoc test @argument the sum of foo and bar.
+ *
+ * @argument {number} bar Param desc capital to start, period to end.
+ *
+ * @return {number} Sum of foo and bar, uses invalid @return.
+ */
+function usesArgument(bar) {
+	return bar;
+}
+
+/**
+ * JSDoc test @extends the sum of foo and bar.
  *
  * @param {number} foo Param desc capital to start, period to end.
  * @param {number} bar Param desc capital to start, period to end.
+ *
+ * @return {number} Sum of foo and bar, uses invalid @return.
  */
-function missingReturns( foo, bar ) {
+function usesExtends(foo, bar) {
 	return foo + bar;
 }
 
