@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fixtures/jsdocs.js 1`] = `
+"warning: Invalid JSDoc tag (preference). Replace \\"returns\\" JSDoc tag with \\"return\\" (jsdoc/check-tag-names) at __tests__/wpcs/fixtures/jsdocs.js:15:1:
+  13 | }
+  14 | 
+> 15 | /**
+     | ^
+  16 |  * JSDoc test @returns the sum of foo and bar.
+  17 |  *
+  18 |  * @param {number} foo Param desc capital to start, period to end.
+
+
+error: Use @return instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:15:1:
+  13 | }
+  14 | 
+> 15 | /**
+     | ^
+  16 |  * JSDoc test @returns the sum of foo and bar.
+  17 |  *
+  18 |  * @param {number} foo Param desc capital to start, period to end.
+
+
+error: Missing JSDoc @return for function (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:27:1:
+  25 | }
+  26 | 
+> 27 | /**
+     | ^
+  28 |  * JSDoc test missing @return the sum of foo and bar.
+  29 |  *
+  30 |  * @param {number} foo Param desc capital to start, period to end.
+
+
+error: Missing JSDoc @return for function (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:37:1:
+  35 | }
+  36 | 
+> 37 | /**
+     | ^
+  38 |  * JSDoc test missing @returns the sum of foo and bar.
+  39 |  *
+  40 |  * @param {number} foo Param desc capital to start, period to end.
+
+
+3 errors and 1 warning found."
+`;
