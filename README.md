@@ -86,7 +86,7 @@ You can also stack any of the extra shared configs on top of the "recommended" c
 }
 ```
 
-## Avaiable rulesets
+## Available rulesets
 
 The following rulesets are available:
 
