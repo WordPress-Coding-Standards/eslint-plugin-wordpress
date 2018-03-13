@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`fixtures/jsdocs.js 1`] = `
+exports[`JSDoc config tests lint results should match snapshot: fixtures/jsdocs.js 1`] = `
 "warning: Invalid JSDoc tag (preference). Replace \\"returns\\" JSDoc tag with \\"return\\" (jsdoc/check-tag-names) at __tests__/wpcs/fixtures/jsdocs.js:15:1:
   13 | }
   14 | 

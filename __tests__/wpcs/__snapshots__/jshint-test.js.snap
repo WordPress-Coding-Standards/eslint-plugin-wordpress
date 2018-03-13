@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`fixtures/semicolons-fixture.js 1`] = `
+exports[`JSHint config tests lint results should match snapshot: fixtures/semicolons-fixture.js 1`] = `
 "error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:1:
   1 | /* eslint-disable no-unused-vars */
   2 | var aa;
@@ -92,7 +92,7 @@ error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-
 1 error potentially fixable with the \`--fix\` option."
 `;
 
-exports[`fixtures/strings-fixture.js 1`] = `
+exports[`JSHint config tests lint results should match snapshot: fixtures/strings-fixture.js 1`] = `
 "error: Combine this with the previous 'var' statement (one-var) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:1:
   1 | /* eslint-disable no-unused-vars */
   2 | var aa;
