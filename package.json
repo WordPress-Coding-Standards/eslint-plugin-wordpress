@@ -18,7 +18,7 @@
 	},
 	"scripts": {
 		"dry-release": "npmpub --dry --verbose",
-		"find-rules": "eslint-find-rules lib/configs/all.js -u -n",
+		"find-rules": "eslint-find-rules lib/configs/all.js -u -n -d",
 		"jest": "jest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
