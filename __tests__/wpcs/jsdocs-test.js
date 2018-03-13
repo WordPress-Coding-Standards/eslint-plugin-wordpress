@@ -22,7 +22,7 @@ describe( 'JSDoc config tests', () => {
 
 	test( 'should have correct error and warning counts', () => {
 
-		expect( report.results.length ).toBe( 1 );
+		expect( report.results ).toHaveLength( 1 );
 		expect( report.errored ).toBeFalsy();
 		expect( report.errorCount ).toBe( 4 );
 		expect( report.warningCount ).toBe( 3 );

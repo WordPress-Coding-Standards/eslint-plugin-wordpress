@@ -21,7 +21,7 @@ describe( 'JSHint config tests', () => {
 	});
 
 	test( 'should have correct error and warning counts', () => {
-		expect( report.results.length ).toBe( 2 );
+		expect( report.results ).toHaveLength( 2 );
 		expect( report.errored ).toBeFalsy();
 		expect( report.errorCount ).toBe( 9 );
 		expect( report.warningCount ).toBe( 0 );
