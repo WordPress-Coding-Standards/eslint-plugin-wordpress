@@ -49,7 +49,7 @@
 	"dependencies": {
 		"eslint-plugin-i18n": "~1.2.0",
 		"eslint-plugin-jsdoc": "~3.5.0",
-		"eslint-plugin-node": "~5.1.0",
+		"eslint-plugin-node": "~6.0.1",
 		"eslint-plugin-wpcalypso": "~4.0.1",
 		"merge": "~1.2.0"
 	},
