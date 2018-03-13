@@ -60,7 +60,7 @@
 		"eslint-plugin-jest": "~20.0.3",
 		"eslint-plugin-wordpress": "git://github.com/WordPress-Coding-Standards/eslint-plugin-wordpress.git#f3a0ce342534afb158c806f091256bc29816ea72",
 		"is-plain-obj": "~1.1.0",
-		"jest": "~20.0.4",
+		"jest": "~22.4.2",
 		"npmpub": "~3.1.0",
 		"strip-ansi": "~4.0.0"
 	},
