@@ -11,7 +11,7 @@ const linter = new eslint.CLIEngine({
 	useEslintrc: false,
 });
 
-describe( 'Recommended config tests', () => {
+describe( 'JSCS config tests', () => {
 	let formatter;
 	let report;
 
