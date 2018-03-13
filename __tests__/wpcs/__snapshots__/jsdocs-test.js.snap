@@ -11,14 +11,14 @@ exports[`JSDoc config tests lint results should match snapshot: fixtures/jsdocs.
   18 |  * @param {number} foo Param desc capital to start, period to end.
 
 
-error: Use @return instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:15:1:
-  13 | }
-  14 | 
-> 15 | /**
-     | ^
-  16 |  * JSDoc test @returns the sum of foo and bar.
-  17 |  *
-  18 |  * @param {number} foo Param desc capital to start, period to end.
+error: Use @return instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:21:4:
+  19 |  * @param {number} bar Param desc capital to start, period to end.
+  20 |  *
+> 21 |  * @returns {number} Sum of foo and bar, uses invalid @returns.
+     |    ^
+  22 |  */
+  23 | function usesReturns( foo, bar ) {
+  24 | 	return foo + bar;
 
 
 error: Missing JSDoc @return for function (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:27:1:
@@ -41,14 +41,14 @@ warning: Invalid JSDoc tag (preference). Replace \\"arg\\" JSDoc tag with \\"par
   40 |  * @arg {number} foo Param desc capital to start, period to end.
 
 
-error: Use @param instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:37:1:
-  35 | }
-  36 | 
-> 37 | /**
-     | ^
+error: Use @param instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:40:4:
   38 |  * JSDoc test @arg.
   39 |  *
-  40 |  * @arg {number} foo Param desc capital to start, period to end.
+> 40 |  * @arg {number} foo Param desc capital to start, period to end.
+     |    ^
+  41 |  *
+  42 |  * @return {number} Sum of foo and bar, uses invalid @return.
+  43 |  */
 
 
 warning: Invalid JSDoc tag (preference). Replace \\"argument\\" JSDoc tag with \\"param\\" (jsdoc/check-tag-names) at __tests__/wpcs/fixtures/jsdocs.js:48:1:
@@ -61,15 +61,16 @@ warning: Invalid JSDoc tag (preference). Replace \\"argument\\" JSDoc tag with \
   51 |  * @argument {number} bar Param desc capital to start, period to end.
 
 
-error: Use @param instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:48:1:
-  46 | }
-  47 | 
-> 48 | /**
-     | ^
+error: Use @param instead (valid-jsdoc) at __tests__/wpcs/fixtures/jsdocs.js:51:4:
   49 |  * JSDoc test @argument the sum of foo and bar.
   50 |  *
-  51 |  * @argument {number} bar Param desc capital to start, period to end.
+> 51 |  * @argument {number} bar Param desc capital to start, period to end.
+     |    ^
+  52 |  *
+  53 |  * @return {number} Sum of foo and bar, uses invalid @return.
+  54 |  */
 
 
-4 errors and 3 warnings found."
+4 errors and 3 warnings found.
+3 errors potentially fixable with the \`--fix\` option."
 `;

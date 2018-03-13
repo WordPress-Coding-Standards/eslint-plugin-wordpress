@@ -26,7 +26,7 @@ describe( 'JSDoc config tests', () => {
 		expect( report.errored ).toBeFalsy();
 		expect( report.errorCount ).toBe( 4 );
 		expect( report.warningCount ).toBe( 3 );
-		expect( report.fixableErrorCount ).toBe( 0 );
+		expect( report.fixableErrorCount ).toBe( 3 );
 		expect( report.fixableWarningCount ).toBe( 0 );
 	});
 
