@@ -1,4 +1,5 @@
 # HEAD
+
 * chore: add `.eslintignore` to ignore custom test fixtures.
 * chore: add `.npmrc` file to prevent npm creating a `package-lock.json` file.
 * chore: add `eslint-find-rules` plugin..
@@ -47,6 +48,7 @@
 
 * feat: add `array-function-spacing` rule.
 * feat: Add ESLint 4.x rules.
+* feat: add ESLint `strict` rule and `strict-mode` configuration.
 * feat: add new `eslint-plugin-i18n` rules.
 * feat: add new `eslint-plugin-rules` rules.
 * feat: add new `function-paren-newline` rule introduced in ESLint `4.6.0`.
