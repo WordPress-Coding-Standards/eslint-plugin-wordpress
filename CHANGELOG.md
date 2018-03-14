@@ -8,7 +8,7 @@
 * chore: add `package-lock.json` to `.gitignore`.
 * chore: add Jest configuration and scripts to `package.json`.
 * chore: add Jest to `env` in `.eslintrc.json`.
-* chore: Bump minimum Node.js required version to `8.9.3`.
+* chore: bump minimum Node.js required version to `8.9.3`.
 * chore: install the latest release of npm for all Travis CI jobs.
 * chore: move ESLint config from `package.json` to standalone `.eslintrc.json` file.
 * chore: remove `.gitkeep` placeholder file.
@@ -47,7 +47,7 @@
 * docs: update repo URLs in README.md.
 
 * feat: add `array-function-spacing` rule.
-* feat: Add ESLint 4.x rules.
+* feat: add ESLint 4.x rules.
 * feat: add ESLint `strict` rule and `strict-mode` configuration.
 * feat: add new `eslint-plugin-i18n` rules.
 * feat: add new `eslint-plugin-rules` rules.
@@ -65,14 +65,14 @@
 
 * fix: add `@return` tag name preference option for `eslint-plugin-jsdoc`.
 * fix: add missing `wpcalypso` namespace to `eslint-plugin-wpcalypso` rules.
-* fix: Add Node.js `node` ESLint environment to `recommended` config.
+* fix: add Node.js `node` ESLint environment to `recommended` config.
 * fix: assign preferred JSDoc tags and types for `eslint-plugin-jsdoc`'s' `jsdoc/require-param` rule.
 * fix: assign preferred JSDoc tags and types for ESLint `valid-jsdoc` rule.
 * fix: change `no-extra-semi`, `semi-spacing`, and `semi` from `warn` to `error`.
 * fix: change `quotes` from `warn` to `error`.
 * fix: change `yoda` rule from `warn` to `error`, and option `never` to `always`.
-* fix: Changed `comma-dangle` rule option to `error` with option `always-multiline`.
-* fix: Moved `comma-dangle` rule from `possible-errors` rule set to `stylistic-issues` rule set.
+* fix: changed `comma-dangle` rule option to `error` with option `always-multiline`.
+* fix: moved `comma-dangle` rule from `possible-errors` rule set to `stylistic-issues` rule set.
 * fix: prefer `@return` over `@returns`.
 * fix: remove `no-restricted-imports` ES6 rule from `node` configuration.
 * fix: remove deprecated `eslint-plugin-wpcalypso` rules.
@@ -84,8 +84,8 @@
 * fix: update ESLint `node` rules.
 * fix: update yoda condition in `hasWhiteSpaceBetween` in `array-function-spacing` rule.
 
-* refactor: Move `test` folder to `__tests__`.
-* refactor: Refactor tests to use Jest instead of Ava.
+* refactor: move `test` folder to `__tests__`.
+* refactor: refactor tests to use Jest instead of Ava.
 
 * tests: add initial JSDocs tests
 * tests: add JSCS fixtures tests.
