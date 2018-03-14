@@ -1,6 +1,6 @@
 # HEAD
 * chore: add `.eslintignore` to ignore custom test fixtures.
-* chore: add `.npmrc` file to prevent npm creating a `packake-lock.json` file.
+* chore: add `.npmrc` file to prevent npm creating a `package-lock.json` file.
 * chore: add `eslint-find-rules` plugin..
 * chore: add `eslint-plugin-jest` plugin.
 * chore: add `npmpub` package.
@@ -20,7 +20,7 @@
 * chore: switch ESLint config from AVA to Jest in `.eslintrc.json`.
 * chore: Switch from AVA to Jest for tests.
 * chore: switch scripts in `package.json` to run jest for tests.
-* chore: update `.editorconfig` per upstream WordPress' `.eitorconfig`.
+* chore: update `.editorconfig` per upstream WordPress' `.editorconfig`.
 * chore: update `__tests__/rules/array-function-spacing.js` per latest ESLint config.
 * chore: update `coveralls` to `3.0.0`.
 * chore: update `eslint-find-rules` to `3.2.1`.
@@ -36,7 +36,7 @@
 * chore: update `package-lock.json`.
 * chore: update Jest test configuration paths.
 * chore: update Jest tests path in `testMatch` in `package.json`.
-* chore: use tabs for indentaion in `package.json` per WordPress Coding Standards.
+* chore: use tabs for indentation in `package.json` per WordPress Coding Standards.
 * chore: Use tilde `~` instead of caret `^` for package versions.
 
 * docs: fix typo in `README.md`.
@@ -75,7 +75,7 @@
 * fix: remove `no-restricted-imports` ES6 rule from `node` configuration.
 * fix: remove deprecated `eslint-plugin-wpcalypso` rules.
 * fix: remove deprecated ESLint rules following.
-* fix: remove erronous `:` from `no-plusplus` rule configuration.
+* fix: remove erroneous `:` from `no-plusplus` rule configuration.
 * fix: remove the `ava`, `backbone`, and `qunit` ESLint plugins and configs.
 * fix: remove unnecessarily quoted properties.
 * fix: require JSDoc for methods.
@@ -95,7 +95,7 @@
 * tests: update JSDocs test fixture
 * tests: use `codeframe` ESLint formatter
 * tests: use `toHaveLength()` following 7b8453c
-* tests: use correct config refernce in test describe
+* tests: use correct config reference in test describe
 
 # 0.1.0
 
