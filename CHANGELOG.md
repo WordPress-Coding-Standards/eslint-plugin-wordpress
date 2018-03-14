@@ -7,7 +7,7 @@
 * chore: add `package-lock.json` to `.gitignore`.
 * chore: add Jest configuration and scripts to `package.json`.
 * chore: add Jest to `env` in `.eslintrc.json`.
-* chore: Bump minimum Node.js required version to `6.9.1`.
+* chore: Bump minimum Node.js required version to `8.9.3`.
 * chore: install the latest release of npm for all Travis CI jobs.
 * chore: move ESLint config from `package.json` to standalone `.eslintrc.json` file.
 * chore: remove `.gitkeep` placeholder file.
