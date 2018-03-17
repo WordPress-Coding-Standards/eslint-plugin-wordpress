@@ -82,9 +82,7 @@
 		],
 		"testEnvironment": "node",
 		"testMatch": [
-			"<rootDir>/__tests__/configs/*.js",
-			"<rootDir>/__tests__/rules/*.js",
-			"<rootDir>/__tests__/wpcs/*.js"
+			"**/?(*.)(spec|test).js"
 		],
 		"verbose": true
 	}
