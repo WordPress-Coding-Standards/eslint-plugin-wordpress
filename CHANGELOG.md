@@ -56,6 +56,7 @@
 * feat: add new `lines-between-class-members` rule introduced in ESLint `4.9.0`.
 * feat: add new `multiline-comment-style` rule introduced in ESLint `4.10.0`.
 * feat: add new ESLint 4.x rules.
+* feat: rename ES6 config to `esnext`.
 * feat: tune off `one-var` rule.
 * feat: turn `no-lonely-if` rule.
 * feat: turn off `computed-property-spacing` rule.

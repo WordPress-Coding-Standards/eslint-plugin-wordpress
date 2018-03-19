@@ -90,7 +90,7 @@ You can also stack any of the extra shared configs on top of the "recommended" c
 
 The following rulesets are available:
 
-* es6
+* **esnext**: Adds ES6+/ES2015+ features.
 * **i18n**: Warns about possible internationalization errors.
 * **jscs**: Imported and merged WordPress and jQuery JSCS preset using https://github.com/brenolf/polyjuice.
 * **jsdoc**: Requires valid JSDoc

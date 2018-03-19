@@ -2,8 +2,8 @@
 
 const isPlainObj = require( 'is-plain-obj' );
 
-test( 'es6', () => {
-	const conf = require( '../../lib/configs/es6' );
+test( 'esnext', () => {
+	const conf = require( '../../lib/configs/esnext' );
 
 	expect( isPlainObj( conf ) ).toBe( true );
 	expect( isPlainObj( conf.env ) ).toBe( true );
