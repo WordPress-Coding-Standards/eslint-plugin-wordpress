@@ -76,6 +76,8 @@
 * fix: moved `comma-dangle` rule from `possible-errors` rule set to `stylistic-issues` rule set.
 * fix: prefer `@return` over `@returns`.
 * fix: remove `no-restricted-imports` ES6 rule from `node` configuration.
+* fix: remove `node` environment from `recommended` config.
+* fix: remove `es6` environment from `node` config.
 * fix: remove deprecated `eslint-plugin-wpcalypso` rules.
 * fix: remove deprecated ESLint rules following.
 * fix: remove erroneous `:` from `no-plusplus` rule configuration.
