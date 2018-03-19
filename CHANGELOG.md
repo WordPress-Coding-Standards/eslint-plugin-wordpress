@@ -84,6 +84,7 @@
 * fix: require JSDoc for methods.
 * fix: update ESLint `node` rules.
 * fix: update yoda condition in `hasWhiteSpaceBetween` in `array-function-spacing` rule.
+* fix: use `strict-mode` config module name.
 
 * refactor: move `test` folder to `__tests__`.
 * refactor: refactor tests to use Jest instead of Ava.

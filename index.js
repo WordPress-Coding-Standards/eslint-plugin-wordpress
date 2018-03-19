@@ -12,6 +12,6 @@ module.exports = {
 		jshint: require( './lib/configs/jshint' ),
 		node: require( './lib/configs/node' ),
 		recommended: require( './lib/configs/recommended' ),
-		strict: require( './lib/configs/strict' ),
+		strict: require( './lib/configs/strict-mode' ),
 	},
 };
