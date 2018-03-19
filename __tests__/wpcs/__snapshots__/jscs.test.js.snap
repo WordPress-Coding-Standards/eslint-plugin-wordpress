@@ -2,7 +2,7 @@
 
 exports[`JSCS config tests lint results should match snapshot: fixtures/semicolons-fixture.js 1`] = `
 "error: Missing semicolon (semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:7:
-  1 | /* eslint-disable no-unused-vars */
+  1 | /* eslint-disable no-unused-vars, no-implicit-globals */
   2 | var aa;
 > 3 | var bb
     |       ^
@@ -16,7 +16,7 @@ error: All 'var' declarations must be at the top of the function scope (vars-on-
   5 | var dd;;
 > 6 | var ee; ;
     | ^
-  7 | /* eslint-enable no-unused-vars */
+  7 | /* eslint-enable no-unused-vars, no-implicit-globals */
   8 | 
 
 
@@ -25,7 +25,7 @@ error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-
   5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
 > 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
     |          ^
-  7 | /* eslint-enable no-unused-vars */
+  7 | /* eslint-enable no-unused-vars, no-implicit-globals */
   8 | 
 
 
@@ -35,7 +35,7 @@ error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-
 
 exports[`JSCS config tests lint results should match snapshot: fixtures/strings-fixture.js 1`] = `
 "error: Missing semicolon (semi) at __tests__/wpcs/fixtures/semicolons-fixture.js:3:7:
-  1 | /* eslint-disable no-unused-vars */
+  1 | /* eslint-disable no-unused-vars, no-implicit-globals */
   2 | var aa;
 > 3 | var bb
     |       ^
@@ -49,7 +49,7 @@ error: All 'var' declarations must be at the top of the function scope (vars-on-
   5 | var dd;;
 > 6 | var ee; ;
     | ^
-  7 | /* eslint-enable no-unused-vars */
+  7 | /* eslint-enable no-unused-vars, no-implicit-globals */
   8 | 
 
 
@@ -58,7 +58,7 @@ error: Strings must use singlequote (quotes) at __tests__/wpcs/fixtures/strings-
   5 | var dd = 'Needless escaped single quotes \\\\\\"within strings\\\\\\"';
 > 6 | var ee = \\"Strings should be contained in single quotes, not double quotes\\";
     |          ^
-  7 | /* eslint-enable no-unused-vars */
+  7 | /* eslint-enable no-unused-vars, no-implicit-globals */
   8 | 
 
 
