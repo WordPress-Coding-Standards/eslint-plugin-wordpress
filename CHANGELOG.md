@@ -73,6 +73,7 @@
 * fix: change `quotes` from `warn` to `error`.
 * fix: change `yoda` rule from `warn` to `error`, and option `never` to `always`.
 * fix: changed `comma-dangle` rule option to `error` with option `always-multiline`.
+* fix: explicitly declare inferred `ecmaVersion: 5` in `recommended` config.
 * fix: moved `comma-dangle` rule from `possible-errors` rule set to `stylistic-issues` rule set.
 * fix: prefer `@return` over `@returns`.
 * fix: remove `no-restricted-imports` ES6 rule from `node` configuration.
