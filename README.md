@@ -2,7 +2,7 @@
 
 A collection of custom ESLint rules that help enforce JavaScript coding standard in the WordPress project.
 
-[![Build Status](https://api.travis-ci.org/WordPress-Coding-Standards/eslint-plugin-wordpress.svg?branch=master)](https://travis-ci.org/WordPress-Coding-Standards/eslint-plugin-wordpress) [![Coverage Status](https://coveralls.io/repos/github/WordPress-Coding-Standards/eslint-plugin-wordpress/badge.svg?branch=master)](https://coveralls.io/github/WordPress-Coding-Standards/eslint-plugin-wordpress?branch=master) [![bitHound Overall Score](https://www.bithound.io/github/WordPress-Coding-Standards/eslint-plugin-wordpress/badges/score.svg)](https://www.bithound.io/github/WordPress-Coding-Standards/eslint-plugin-wordpress) [![NPM version](http://img.shields.io/npm/v/eslint-plugin-wordpress.svg)](https://www.npmjs.org/package/eslint-plugin-wordpress)
+[![Build Status](https://api.travis-ci.org/WordPress-Coding-Standards/eslint-plugin-wordpress.svg?branch=master)](https://travis-ci.org/WordPress-Coding-Standards/eslint-plugin-wordpress) [![Coverage Status](https://coveralls.io/repos/github/WordPress-Coding-Standards/eslint-plugin-wordpress/badge.svg?branch=master)](https://coveralls.io/github/WordPress-Coding-Standards/eslint-plugin-wordpress?branch=master) [![bitHound Overall Score](https://www.bithound.io/github/WordPress-Coding-Standards/eslint-plugin-wordpress/badges/score.svg)](https://www.bithound.io/github/WordPress-Coding-Standards/eslint-plugin-wordpress) [![NPM version](http://img.shields.io/npm/v/eslint-plugin-wordpress.svg)](https://www.npmjs.org/package/eslint-plugin-wordpress) [![Greenkeeper badge](https://badges.greenkeeper.io/WordPress-Coding-Standards/eslint-plugin-wordpress.svg)](https://greenkeeper.io/)
 
 ## Installation
 
